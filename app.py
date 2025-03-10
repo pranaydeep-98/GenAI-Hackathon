@@ -12,7 +12,7 @@ slang_input = st.text_input("Enter a slang phrase:", "")
 if st.button("Decode"):
     if slang_input.strip():
         decoded_text = decode_slang(slang_input)  # Call API function from backend
-        st.success(f"**Decoded Meaning:** {decoded_text}")  # ✅ Show result in UI
+        st.success(f"**Meaning:** {decoded_text}")  # ✅ Show result in UI
     else:
         st.warning("Please enter a slang phrase.")
 
