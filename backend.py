@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # ✅ Set up API Key (Replace with your actual key)
-genai.configure(api_key="AIzaSyA4k--rbYxR6PfbLgY19oGaZEsKDsWwInY")
+genai.configure(api_key="Your_API Key")
 
 # ✅ Function to Call Google Gemini API
 def decode_slang(slang_text):
